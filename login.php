@@ -1,7 +1,7 @@
 <?php
 session_start(); // Start a PHP session to manage user sessions.
 
-require_once 'C:\xampp\htdocs\user authentication system\database\queries.php'; // Include the file containing database queries.
+require_once 'C:\xampp\htdocs\user authentication system\database\DBconnector.php'; // Include the file containing database queries.
 
 if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['submit'])) { // Check if the request method is POST and if the 'submit' button was clicked.
 
