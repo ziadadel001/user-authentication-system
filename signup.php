@@ -1,5 +1,6 @@
 <?php
 session_start();
+require_once 'C:\xampp\htdocs\user authentication system\database\DBconnector.php'; // Include the file containing database queries.
 
 // Redirect users to the dashboard if they are already logged in
 if (isset($_SESSION['user_id'])) {
