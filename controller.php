@@ -2,7 +2,7 @@
 session_start();
 
 // Include the DBoperations class
-require_once 'C:\xampp\htdocs\user authentication system\database\queries.php';
+require_once 'C:\xampp\htdocs\user authentication system\database\DBConnector.php';
 
 class UserController
 {
