@@ -8,11 +8,7 @@ This project depends on the `DBoperations` class, which is implemented in anothe
 
 ## Description
 
-This system is a simple authentication system designed for user authentication based on their username and password only. It consists of several PHP files that handle user login, registration, and logout.
 
-## Files
+**This system is a simple authentication system designed for user authentication based on their username and password only.** It consists of several PHP files that handle user login, registration, and logout.
 
-### 1. login.php
-### 2. Signup.php
-### 3. logout.php
-### 4. Index.php
+**You also have the option to use a file controller to handle all functions seamlessly, consolidating them into a single file for improved organization and maintenance.**
